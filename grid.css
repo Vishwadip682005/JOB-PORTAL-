@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .grid-item {
+    background-color: rgba(20, 15, 14, 0.514);
+    padding: 30px;
+    text-align: center;
+    border: 40px solid rgb(51, 10, 37);
+    border-style: inset;
+    
+  }
+
+  h2{
+    text-align: center;
+    color: rgb(193, 102, 102);
+    text-decoration: underline;
+  }
+
+  
+  
